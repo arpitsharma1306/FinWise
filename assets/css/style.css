@@ -350,13 +350,16 @@ header .btn-group {
 \*-----------------------------------*/
 
 .hero {
-  background: var(--background-primary);
-  padding-top:    2rem;
-  padding-bottom: var(--py);
-  text-align: center;
+  background-image: url('assets\\images\\project.png');
+  /* Additional properties for background */
+  background-repeat: no-repeat; /* or repeat-x, repeat-y, repeat */
+  background-position: center center; /* or top, bottom, left, right */
+  background-size: cover; /* or contain, auto, or specific values */
+  
+  
 }
 
-.hero .h1 {
+/* .hero .h1 {
   margin-bottom: 1rem;
   line-height: 1.6;
 }
@@ -379,7 +382,7 @@ header .btn-group {
   text-align: center;
 }
 
-.hero .right { display: none; }
+.hero .right { display: none; } */
 
 
 
